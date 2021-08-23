@@ -4,9 +4,9 @@ import fastify from 'fastify'
 import fastifyStatic from 'fastify-static'
 import path from 'path'
 
-const protocal = process?.env?.port || 'http'
-const host = process?.env?.port || 'localhost'
-const port = process?.env?.port || 3000
+const protocal = process?.env?.FRONTEND_PROTOCAL || 'http'
+const host = process?.env?.FRONTEND_HOST || 'localhost'
+const port = process?.env?.FRONTEND_PORT || 3000
 const url = `${protocal}://${host}:${port}`
 
 const Fastify = fastify()
