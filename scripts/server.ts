@@ -2,7 +2,7 @@ import fastify from 'fastify'
 import fastifyStatic from 'fastify-static'
 import path from 'path'
 
-const port = process?.env?.port ?? 3000
+const port = process?.env?.FRONTEND_PORT ?? 3000
 
 const Fastify = fastify()
 
