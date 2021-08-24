@@ -1,7 +1,5 @@
 import fastify from 'fastify'
 import fastifyCors from 'fastify-cors'
-import fastifyStatic from 'fastify-static'
-import path from 'path'
 
 import { data } from './data'
 import { search } from './search'
@@ -27,10 +25,6 @@ interface Req {
 
 const devApp = async () => {
   try {
-    Fastify.register(fastifyStatic, {
-      root: path.resolve(__dirname, '..', 'assets'),
-    })
-
     Fastify.register(fastifyCors)
 
     // Endpoint for search query.

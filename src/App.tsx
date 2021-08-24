@@ -8,6 +8,7 @@ import { useDebounce } from 'use-debounce'
 
 import Header from './Header'
 import SearchPanel, { SearchPanelProps } from './SearchPanel'
+import SearchResult from './SearchResult'
 import TopicsResult from './TopicsResult'
 
 const apiUrl = `http://localhost:3001`
@@ -64,10 +65,13 @@ const App = () => {
         <MaxWidth>
           <SearchPanel handleQueryChange={handleQueryChange} />
           <TopicsResult topics={topics} />
+          <SearchResult dataList={dataList} />
         </MaxWidth>
       </Main>
     </>
   )
 }
+
+export type { Data }
 
 export default App

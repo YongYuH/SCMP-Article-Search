@@ -8,6 +8,7 @@
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "browser-sync": "2.27.4",
+    "date-fns": "2.23.0",
     "fastify-cors": "6.0.2",
     "lunr": "2.3.9",
     "rambda": "6.9.0",
