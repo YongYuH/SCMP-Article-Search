@@ -1,26 +1,19 @@
-# How to use this boilerplate
-1. clone this repo
-```bash
-git clone git@github.com:YongYuH/ts-react-esbuild-boilerplate.git
-```
-
-2. install dependencies
+# How to run this repo in local development
+1. install yarn
+2. install dependencies through yarn
 ```bash
 yarn
 ```
-
-3. install husky
+3. open 2 terminal session, run front end dev server and backend dev server at the same time
+run front end dev server
 ```bash
-yarn prepare
+yarn dev
 ```
-
-# What does this boilerplate contain
-* build production code with `esbuild@0.12.15` (client side rendering)
-* rebuild development code and reload with `esbuild@0.12.15` `watch` and `browser-sync@2.27.4`
-* run development and production server with `fastify@3.19.1` 
-* serve static files with `fastify-static@4.2.2`
-* unify coding style with `eslint@7.31.0` and `husky@7.0.1`
-* develop front-end source code with `react@17.0.2` and `typescript@4.3.5`
+run back end dev server
+```bash
+yarn backend
+```
+4. the front end dev server would be running on http://localhost:3000, and the front end dev server would be running on http://localhost:3001
 
 # License
 [MIT](LICENSE)
