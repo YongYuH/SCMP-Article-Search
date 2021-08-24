@@ -5,6 +5,8 @@
   "author": "YongYuH <larry830326@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
     "browser-sync": "2.27.4",
     "fastify-cors": "6.0.2",
     "lunr": "2.3.9",
@@ -19,6 +21,8 @@
     "@typescript-eslint/eslint-plugin": "4.28.3",
     "@typescript-eslint/parser": "4.28.3",
     "esbuild": "0.12.15",
+    "esbuild-plugin-svg": "0.1.0",
+    "esbuild-plugin-svgr": "0.0.3",
     "eslint": "7.31.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
