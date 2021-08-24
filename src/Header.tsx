@@ -13,6 +13,8 @@ const Wrapper = styled.div`
   grid-auto-flow: column;
   grid-column-gap: 8px;
   grid-template-columns: max-content;
+  padding: 8px;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.1);
 `
 const LogoWrapper = styled.div`
   height: ${logoImageHeight}px;
