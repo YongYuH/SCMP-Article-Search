@@ -20,7 +20,10 @@ const LogoWrapper = styled.div`
   height: ${logoImageHeight}px;
   width: ${logoImageWidth}px;
 `
-const Title = styled.div``
+const Title = styled.div`
+  color: #1d2250;
+  font-weight: bold;
+`
 const ListIconWrapper = styled.div`
   justify-self: flex-end;
 `

@@ -4,6 +4,7 @@ import { BsSearch } from 'react-icons/bs'
 
 const GridWrapper = styled.div`
   margin: 16px 0;
+  padding-bottom: 16px;
   display: grid;
   grid-template-columns: 1fr max-content;
   grid-auto-flow: column;

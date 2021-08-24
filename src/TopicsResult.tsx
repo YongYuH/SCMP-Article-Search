@@ -3,6 +3,7 @@ import React from 'react'
 
 const GridWrapper = styled.div`
   margin: 16px 0;
+  padding-bottom: 16px;
   display: grid;
   grid-auto-flow: column;
   align-items: center;
