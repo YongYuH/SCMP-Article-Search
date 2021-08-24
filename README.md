@@ -15,7 +15,7 @@ run back end dev server
 ```bash
 yarn backend
 ```
-4. the front end dev server would be running on http://localhost:3000, and the front end dev server would be running on http://localhost:3001
+4. the front end dev server would be running on http://localhost:3000, and the back end dev server would be running on http://localhost:3001
 
 # Implementation Description
 * serve static files in front end fastify server
