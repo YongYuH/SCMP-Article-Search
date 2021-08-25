@@ -6,12 +6,12 @@
 ```bash
 yarn
 ```
-3. open 2 terminal session, run front end dev server and backend dev server at the same time
-run front end dev server
+3. open 2 terminal session, run front-end dev server and back-end dev server at the same time
+* run front end dev server
 ```bash
 yarn dev
 ```
-run back end dev server
+* run back end dev server
 ```bash
 yarn backend
 ```
